@@ -6,4 +6,4 @@ fmt:
 
 # Format first, then run the web app
 run: fmt
-	go run ./cmd/web/
+	go run -race ./cmd/web/
